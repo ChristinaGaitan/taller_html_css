@@ -1,0 +1,30 @@
+body {
+  background-color: #00A293;
+  color: white;
+  font-family: Verdana, Courier, monospace;
+  font-size: 20px;
+  text-align: center;
+  background-image: url('imagenes/codificadas.png');
+  background-repeat: repeat;
+ }
+
+ div {
+  background-color: white;
+  color: #00A293;
+  height: 200px;
+  width: 200px;
+
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+
+  border-width: 15px;
+  border-style: solid;
+  border-color: black;
+
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+ }

@@ -1,1 +1,97 @@
+/* 1. Empecemos desde cero estableciendo todos los margenes y paddings a 0 */
+* {
+  margin: 0;
+  padding: 0;
+}
 
+/* 2. Establecemos que la altura del html y el body es igual a la altura del navegador */
+html, body {
+  height: 100%;
+  margin: 0px;
+}
+
+/* 3. Establecemos una fuente y un tamaño de fuente para toda la página */
+body {
+  font-family: Verdana, Courier, monospace;
+  font-size: 14px;
+}
+
+/* 4. Establecemos un color de fondo para toda nuestro contenedor principal */
+#contenedor_principal {
+  background-color:#F4ECE6;
+}
+
+/* 5. Agregamos el banner de nuestra página */
+#banner_image {
+  height: 200px;
+  background: url('../imagenes/banner.jpg');
+  background-repeat: no-repeat;
+  text-align: center;
+  border-bottom: 5px solid #B9BCC0;
+}
+
+/* 6. Centramos el texto del banner verticalment */
+h1 {
+  color: #353E48;
+  padding-top: 85px;
+}
+
+/* 7. Centramos nuestro contenido, establecemos un ancho y un color de fondo */
+#contenido {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+/* 8. Damos un poco de espacio a nuestras secciones */
+section {
+  margin-bottom: 20px;
+}
+
+/* 9. Damos un poco de espacio a nuestros títulos */
+h2, h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* 10. Damos un poco de espacio interno a nuestros párrafos */
+p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: justify;
+}
+
+/* 11. Centramos nuestra imagen */
+#contenedor_imagen {
+  text-align: center;
+}
+
+/* 12. Damos espacio a la izquierda de toda nuestra lista */
+#lista_actividades {
+  margin-left: 20px;
+}
+
+/* 13. Damos espacio entre los elementos de la lista */
+.actividad {
+  padding-top: 10px;
+}
+
+/* 14. Establecemos el alto y color de nuestro footer */
+footer {
+  height: 50px;
+  text-align: center;
+  background-color: #353E48;
+  color: white;
+}
+
+/* 15. Damos un poco de espacio al contenido de nuestro footer */
+#contenedor_footer {
+  padding-top: 15px;
+}
+
+/* 16. Cambiamos el color de los links del footer */
+.link-footer {
+  color: #B9BCC0
+}
